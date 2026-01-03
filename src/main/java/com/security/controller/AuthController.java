@@ -30,9 +30,6 @@ public class AuthController {
         return success ? "Login successful" : "Invalid credentials";
     }
 
-    @GetMapping("/login")
-    public void login() {
 
-    }
 }
 
